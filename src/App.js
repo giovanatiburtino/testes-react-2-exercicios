@@ -27,10 +27,11 @@ function App() {
     const openModal = (allPokemonDetails) => {
         setActiveModal(allPokemonDetails)
     }
-
+    
     const closeModal = () => {
         setActiveModal(null)
     }
+
 
     return (
         <>
