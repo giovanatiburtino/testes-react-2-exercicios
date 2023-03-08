@@ -55,6 +55,7 @@ function Pokecard(props) {
             setPokemonNumber(response.data.id);
             setPokemonTypes(response.data.types.map((type) => type.type.name));
             setAllPokemonDetails(response.data)
+            console.log('axios', response.data)
         });
     }, [url]);
 
